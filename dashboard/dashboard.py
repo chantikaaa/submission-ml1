@@ -19,7 +19,6 @@ bike_df['time_period'] = pd.cut(bike_df['hr'], bins=time_bins, labels=time_label
 
 # Sidebar
 with st.sidebar:
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
 
     st.sidebar.header('Filter Data berdasarkan Pilihan Berikut:')
     #Tanggal

@@ -8,7 +8,7 @@ from babel.numbers import format_currency
 sns.set(style='white')
 
 #Muat data
-bike_df = pd.read_csv("dashboard/bike_df.csv")
+bike_df = pd.read_csv("bike_df.csv")
 # Konversi dteday ke datetime
 bike_df['dteday'] = pd.to_datetime(bike_df['dteday'])
 
